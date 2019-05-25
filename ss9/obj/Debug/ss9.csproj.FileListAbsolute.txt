@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\ss9\ss9\bin\Debug\ss9.exe.config
+C:\Users\DELL\source\repos\ss9\ss9\bin\Debug\ss9.exe
+C:\Users\DELL\source\repos\ss9\ss9\bin\Debug\ss9.pdb
+C:\Users\DELL\source\repos\ss9\ss9\obj\Debug\ss9.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\ss9\ss9\obj\Debug\ss9.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\ss9\ss9\obj\Debug\ss9.exe
+C:\Users\DELL\source\repos\ss9\ss9\obj\Debug\ss9.pdb
