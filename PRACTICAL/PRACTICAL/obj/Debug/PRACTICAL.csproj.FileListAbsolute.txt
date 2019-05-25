@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\PRACTICAL\PRACTICAL\bin\Debug\PRACTICAL.exe.config
+C:\Users\DELL\source\repos\PRACTICAL\PRACTICAL\bin\Debug\PRACTICAL.exe
+C:\Users\DELL\source\repos\PRACTICAL\PRACTICAL\bin\Debug\PRACTICAL.pdb
+C:\Users\DELL\source\repos\PRACTICAL\PRACTICAL\obj\Debug\PRACTICAL.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\PRACTICAL\PRACTICAL\obj\Debug\PRACTICAL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\PRACTICAL\PRACTICAL\obj\Debug\PRACTICAL.exe
+C:\Users\DELL\source\repos\PRACTICAL\PRACTICAL\obj\Debug\PRACTICAL.pdb
