@@ -1,0 +1,2 @@
+C:\Users\DELL\source\repos\Ass6\Ass6\obj\Debug\Ass6.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\Ass6\Ass6\obj\Debug\Ass6.csproj.CoreCompileInputs.cache
