@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.popup {
+	width: 334px;
+	padding-bottom: 2px;
+	display: none;
+	background: #FFF;
+	border-radius: 10px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+
+
+}
+.section1{
+
+}
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+<script>
+    $(document).ready(function () {
+        $('#hd-main').hide();
+        $('#hd-view').show();
+    });
+
+</script>
+<div id="main">
+<img alt="" src="" width="100%" max-height="150" />
+    <a onclick="showPopup();" style="position:absolute;left:1%; top:1%;cursor: pointer; padding: 7px 12px; background-color: orange; color: white; border-radius: 3px; font-weight: normal;">
+    <img src="D:/Projects/vjsoft/images/icon_player_pause.png" /> Xem miễn phí 3G/4G
+</a>
+
+<div class="box-detail">
+                <h3 class="title" style="font-weight:600;font-size:16px;margin-left:10px">Quá trình gây án của nhóm đi ôtô cướp tiệm vàng ở Sơn La</h3>
+                <div class="content">
+                   
+                    <section style="display:block; margin:10px auto ;" class="slide-img">
+                        <img src="#" alt="">
+                    </section>
+                    <div style=" overflow:hidden; margin:10px 0 1.5em; display:block; font-size:13px; color:#555;"><em class="left">Ngày đăng tin: Thứ bảy </em> <em class="right">ngày 20/09/2014</em></div>
+                    <div class="clear"></div>
+                   <div class="fck">
+                       
+                                    <a href="#">Xem</a>
+                               
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+<div id="popupOverlay" style="display: none; position: fixed; z-index: 1000; margin: 0; height: 100%; width: 100%; background: #000; opacity: 0.5; top: 0px; left: 0px"></div>
+	<div id="choosePopup" class="popup" style="display: none; position: fixed; opacity: 1; z-index: 1010; margin: 20px; top: 25%; text-align: center; opacity: 1;padding: 1px">
+		<h3 style="margin: 15px 0;">Chọn Gói Dịch Vụ</h3>
+		
+			<div class="section1" >
+				<div style="padding-left: 1px">
+			       <a href=""><input type="radio" name="checkbox" value="" /><a >Gói Ngày/1000đ</a><button style="left: 20px;">Đăng Ký</button></a><br>
+			    </div>
+			    <div style="margin: 20px;padding-left: 1px">
+			       <a>	<input type="radio" name="checkbox" value=""  /><a >Gói Tuần/7000đ</a><button>   Đăng Ký</button></a><br>
+			    </div>
+			    <div style="padding-left: 1px" >
+			       <a><input type="radio" name="checkbox" value="" /> <a style="padding-right: : 1px">Gói Tháng/30000đ</a><button > Đăng Ký</button></a><br>
+			    </div>
+				
+			    
+		    </div>
+		
+		
+	</div>
+
+	<script>
+		function showPopup() {
+			$("#popupOverlay").css("display", "block");
+			$("#choosePopup").css("display", "block");
+		}
+		function packageSelect() {
+			var pkgSelect = $("#packageSelect").val();
+			if (pkgSelect == "3") {
+				$("#registerBtn").attr("href", "http://pay.xemhay.vn/charge/REGISTER?register=3&ranks=ads1&from=@from&misdn=@sUsername");
+			}
+			else if (pkgSelect == "2") {
+				$("#registerBtn").attr("href", "http://pay.xemhay.vn/charge/REGISTER?register=2&ranks=ads1&from=@from&misdn=@sUsername");
+			}
+			else {
+				$("#registerBtn").attr("href", "http://pay.xemhay.vn/charge/REGISTER?register=1&ranks=ads1&from=@from&misdn=@sUsername");
+			}
+		}
+	</script>
+    <div class="box-release">
+        <h1>Đề xuất</h1>
+        <div id="release">
+
+        </div>
+        <div id="divHotHotPage" style="margin:0; padding:0;width:100%" align="center"></div>
+    </div>
+    <div class="box-review" style="display:none">
+        <h3>Delete</h3>
+
+    </div>
+</div>
+<script>
+
+
+</script>
+
+</body>
+</html>
